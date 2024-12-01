@@ -45,4 +45,4 @@ with ZipFile(fr'{TEMP_DIR}\metanit.zip', "w") as myzip:
 # ZipFile(fr'{TEMP_DIR}\metanit.zip', 'w').close()
 
 # shutil.rmtree(os.path.join(CURRENT_DIR, "temp"))
-# os.remove(fr'{TEMP_DIR}\metanit.zip')
+os.remove(fr'{TEMP_DIR}\metanit.zip')
